@@ -19,6 +19,8 @@ jobs:
         # The hybrid ECIES encryption scheme used by Shopify is secure
       - name: Snyk Ignore file
         run: snyk ignore --file-path='src/EciesDecryptStrategy.ts'
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_API_KEY }}
 
       - name: Snyk code scan
         uses: snyk/actions/node@master
