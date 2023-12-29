@@ -14,13 +14,18 @@ jobs:
       - name: Setup Snyk
         uses: snyk/actions/setup@master
 
-      - name: Snyk version
-        run: snyk -v
+        # Snyk complains about the aes-256-ctr algorithm for not providing message integrity.
+        # However, this is not necessary to guarantee security.
+        # The hybrid ECIES encryption scheme used by Shopify is secure
+      - name: Snyk Ignore file
+        run: snyk ignore --file-path='src/EciesDecryptStrategy.ts'
 
       - name: Snyk code scan
-        run: snyk code test --severity-threshold=medium
+        uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_API_KEY }}
+        with:
+          command: code test --all-sub-projects --severity-threshold=medium
 
   scan-deps:
     runs-on: ubuntu-latest
