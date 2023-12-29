@@ -1,0 +1,49 @@
+{
+  "id": "rC9c95Nz25GqjRgI9iZhqnfId",
+  "gid": "gid://shopify/PaymentSession/rC9c95Nz25GqjRgI9iZhqnfId",
+  "group": "knsweHR21pArDdwm7f5U/BwWkADkW2oZmQVvATwP/4A=",
+  "currency": "USD",
+  "amount": "38.11",
+  "test": true,
+  "merchant_locale": "en-US",
+  "payment_method": {
+    "data": {
+      "tag": "Q99zG0654nbPnqBjtKqiZw==",
+      "encrypted_message": "Z2IR221knVxaaKmqP+BmWOStiu+N5S8uHhCpzMiFmSSpdNK8LW5bmkaXa4lf5Rt8UTBAsr0ycw89bWNh32XQ4OD90gwj1r5ugQ3x8fTB5Eg5eNC50eipRsKQkVKp2TmKtg2kjXlKtMN+9hydcPMRZRO59ydd9Q==",
+      "ephemeral_public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMUC14UncQPFKpaaKLYZHTeVBxLl8\ntxTAF1Hobtez7GZOaUNZwAgUXs3HK1ERCvNwx3Aow3XJQWmlQxsmRJCwIw==\n-----END PUBLIC KEY-----\n",
+      "fingerprint": "23f3812e093737252e98d47aa790ba5e607188837ec9aea797c0dde8ed7ef674"
+    },
+    "type": "credit_card"
+  },
+  "proposed_at": "2023-12-14T07:43:37Z",
+  "customer": {
+    "locale": "en-US",
+    "billing_address": {
+      "city": "Brooklyn",
+      "family_name": "S",
+      "line1": "15 Dunham Pl",
+      "country_code": "US",
+      "postal_code": "11249",
+      "province": "New York",
+      "phone_number": "(888) 888-8888",
+      "given_name": "Jim"
+    },
+    "email": "jim@accelpay.io",
+    "shipping_address": {
+      "phone_number": "(888) 888-8888",
+      "given_name": "Jim",
+      "postal_code": "11249",
+      "province": "New York",
+      "family_name": "S",
+      "line1": "15 Dunham Pl",
+      "city": "Brooklyn",
+      "country_code": "US"
+    }
+  },
+  "kind": "sale",
+  "client_details": {
+    "accept_language": "en-US",
+    "ip_address": "35.202.142.140",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+}

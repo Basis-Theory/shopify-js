@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`decrypt should decrypt finding key by certificate fingerprint 1`] = `
+{
+  "data": {
+    "full_name": "Jim S",
+    "month": 4,
+    "pan": "4242424242424242",
+    "verification_value": "234",
+    "year": 2024,
+  },
+  "type": "card",
+}
+`;
+
+exports[`decrypt should decrypt using right key 1`] = `
+{
+  "data": {
+    "full_name": "Jim S",
+    "month": 4,
+    "pan": "4242424242424242",
+    "verification_value": "234",
+    "year": 2024,
+  },
+  "type": "card",
+}
+`;
