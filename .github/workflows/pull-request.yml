@@ -11,12 +11,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Setup Snyk
+        uses: snyk/actions/setup@master
+
+      - name: Snyk version
+        run: snyk -v
+
       - name: Snyk code scan
-        uses: snyk/actions/node@master
+        run: snyk code test --severity-threshold=medium
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_API_KEY }}
-        with:
-          command: code test --all-sub-projects --severity-threshold=medium
 
   scan-deps:
     runs-on: ubuntu-latest
