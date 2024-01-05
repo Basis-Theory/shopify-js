@@ -1,4 +1,4 @@
-Basis Theory Shopify JS
+# Basis Theory Shopify JS
 
 ![Version](https://img.shields.io/npm/v/%40basis-theory/shopify-js) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Basis-Theory/shopify-js/release.yml) ![License](https://img.shields.io/npm/l/%40basis-theory%2Fshopify-js)
 
