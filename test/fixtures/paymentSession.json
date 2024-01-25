@@ -19,31 +19,31 @@
   "customer": {
     "locale": "en-US",
     "billing_address": {
-      "city": "Brooklyn",
-      "family_name": "S",
-      "line1": "15 Dunham Pl",
+      "line1": "33 Lost Creek Road",
+      "city": "Paoli",
+      "province": "Pennsylvania",
+      "postal_code": "19301",
       "country_code": "US",
-      "postal_code": "11249",
-      "province": "New York",
-      "phone_number": "(888) 888-8888",
-      "given_name": "Jim"
+      "given_name": "John",
+      "family_name": "Doe",
+      "phone_number": "(888) 888-8888"
     },
-    "email": "jim@accelpay.io",
+    "email": "john.doe@email.com",
     "shipping_address": {
-      "phone_number": "(888) 888-8888",
-      "given_name": "Jim",
-      "postal_code": "11249",
-      "province": "New York",
-      "family_name": "S",
-      "line1": "15 Dunham Pl",
-      "city": "Brooklyn",
-      "country_code": "US"
+      "line1": "33 Lost Creek Road",
+      "city": "Paoli",
+      "province": "Pennsylvania",
+      "postal_code": "19301",
+      "country_code": "US",
+      "given_name": "John",
+      "family_name": "Doe",
+      "phone_number": "(888) 888-8888"
     }
   },
   "kind": "sale",
   "client_details": {
     "accept_language": "en-US",
-    "ip_address": "35.202.142.140",
-    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "ip_address": "22.139.96.254",
+    "user_agent": "Opera/9.12 (Windows 98; sl-SI) Presto/2.10.172 Version/10.00"
   }
 }
