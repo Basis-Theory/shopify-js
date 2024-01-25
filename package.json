@@ -1,6 +1,6 @@
 {
   "name": "@basis-theory/shopify-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basis Theory utility for decrypting Shopify Payment App Session payload",
   "repository": {
     "type": "git",
